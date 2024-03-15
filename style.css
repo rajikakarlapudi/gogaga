@@ -1,0 +1,233 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  color: white;
+}
+
+
+main {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+#Relaxing{
+  color: white;
+  background-image: url('relaxing.jpg');
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+
+}
+#Adventure{
+  color: white;
+  background-image: url('Adventure.jpg');
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+
+}
+#Explore{
+  color: white;
+  background-image: url('Explore.jpg');
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+
+}
+
+.package {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.package h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.package p {
+  margin-bottom: 10px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="date"],
+form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style for active input */
+form input[type="text"]:active,
+form input[type="date"]:active {
+  border: 1px solid blueviolet;
+}
+
+form button {
+  background-color: blueviolet;
+  color: white;
+  cursor: pointer;
+}
+
+form button:active {
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+}
+
+
+.collection {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.collection img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.hotel {
+  margin: 5px;
+  background-size: cover;
+  background-position: center;
+  color: bisque;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+}
+
+#hotel1{
+  color: gray;
+}
+#hotel2{
+  color: bisque;
+}
+#hotel3{
+  
+  color: white;
+}
+#hotel4{
+  
+  color: white;
+}
+.hotel h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.hotel p {
+  margin-bottom: 10px;
+}
+
+.collection{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  color: white;
+}
+#family{
+  background-image: url('family.jpg');
+  
+
+}
+#Romantic{
+  background-image: url('romantic.jpg');
+
+}
+#Thrilling{
+  background-image: url('thrilling.jpg');
+
+}
+
+
+@media screen and (max-width: 428px) {
+  nav ul {
+    display: none;
+  }
+}
+@media screen and (max-width: 428px) {
+  nav ul {
+    display: none;
+  }
+}
